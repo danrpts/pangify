@@ -5,6 +5,7 @@ var path = require("path");
 var mini = require("minimist");
 var Logdown = require("logdown");
 var through2 = require("through2");
+var reduce = require("through2-reduce");
 var argv = mini(process.argv.slice(2));
 var LineStream = require("byline").LineStream;
 // Pretty logs
@@ -12,6 +13,7 @@ var logger = new Logdown({prefix: '[pangify]'});
 
 // Args
 var models = argv._;
+var verbos = argv.v || false;
 var iexts = argv.i || "poly,coor";
 var oext = argv.o || 'pang';
 iexts = iexts.split(',');
@@ -43,10 +45,60 @@ function tokenize (string) {
 var Tokenizer = through2.ctor(function (line, enc, callback) {
   var token = tokenize(line);
   token.parent = path.basename(this.options.name);
-  this.push(JSON.stringify(token).concat('\n'));
+  if (verbos) logger.log(JSON.stringify(token)); // spew out tokens
+  this.push(token);
   callback();
 }, function (callback) {
-  // this.push("Have anything to be done between reads?\n");
+  // logger.warn("Have anything to be done between token and next the transform?");
+  callback();
+});
+
+// Pool the stream into array
+/// Make better... this is just a hack
+var Parser = through2.ctor(function (token, enc, callback) {
+
+  if (!Array.isArray(this.store)) this.store = [];
+
+  switch (token.type) {
+
+    case "total":
+      // last count in file wins
+      this.store[0] = parseInt(token.lexeme);
+      break;
+    case "polygon":
+      var lexemes = token.lexeme.split(/[, \t]+/);
+      lexemes.forEach(function(item, index) {
+        if (/\d+/.test(item)) lexemes[index] = parseInt(item);
+      });
+      this.store.push(lexemes);
+      break;
+    case "coordinate":
+      var lexemes = token.lexeme.split(/[, \t]+/);
+      lexemes.forEach(function(item, index) {
+        if (/\d+/.test(item)) lexemes[index] = parseFloat(item);
+      });
+      lexemes.shift(); // omit the index; can use it in json form
+      this.store.push(lexemes);
+      break;
+    default: break;
+  }
+
+  callback();
+
+}, function (callback) {
+  // push the entire array
+  this.push(this.store);
+  callback();
+});
+
+// Transform objects into strings for writing to file
+var Stringify = through2.ctor(function (chunk, enc, callback) {
+  var prefix = this.options.prefix || '';
+  var postfix = this.options.postfix || '\n';
+  this.push(prefix + JSON.stringify(chunk) + postfix);
+  callback();
+}, function (callback) {
+  // logger.warn("Have anything to be done between stringify and next the transform?");
   callback();
 });
 
@@ -60,15 +112,23 @@ var qid = 0;
 
 // The actual stream pipeline
 function execute (job) {
-  logger.info("Starting job *#", job.id, job.name, "*");
+
+  // Setup some config
+  var name = job.name;
+  var id = job.id;
+  var pre = 'var ' + name.substr(name.indexOf('.')+1) + ' = ';
+  var post = ';\n';
+  logger.info("Starting job *#", id, name, "*");
 
   // Init some transforms
-  var linestream = new LineStream({objectMode: true});
-  var tokenizer = new Tokenizer({objectMode: true, id: job.id, name: job.name});
+  var linestream = new LineStream();
+  var tokenizer = new Tokenizer({objectMode: true, id: id, name: name});
+  var parser = new Parser({objectMode: true});
+  var stringify = new Stringify({objectMode: true, prefix: pre, postfix: post});
 
   // All has been read from this transform stream.. I think..
   // https://nodejs.org/api/stream.html#stream_event_end
-  tokenizer.on('end', function () {
+  stringify.on('end', function () {
     job.instream.emit('shift'); // shift self from queue
   });
 
@@ -76,8 +136,10 @@ function execute (job) {
   job.instream
   .pipe(linestream)
   .pipe(tokenizer)
-  //.pipe(make_javascript_from_tokens)
+  .pipe(parser)
+  .pipe(stringify)
   .pipe(job.outstream, {end: false}); // https://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
+
 }
 
 // Here we go
@@ -119,11 +181,15 @@ models.forEach(function (model, mid) {
     job.instream.on('shift', function () {
       logger.info("Finished job *#", job.id, job.name, "*");
       if (queue.length > 0) execute(queue.shift());
+      else pangfile.end();
     });
 
   });
 
   // Close outstream somehow once all writes are done
+  pangfile.on('end', function () {
+    logger.info("File_",outfile,"_created.*");
+  });
 
 });
 

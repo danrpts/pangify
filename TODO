@@ -1,3 +1,4 @@
-[1] Add error checking!
+[1] Add error checking! Error event bindings.
 [2] Acutually transform the output to javascript or json!
-[3] Keep outer loop asynchronous while keeping inner loop synchronous
+[3] Keep outer loop asynchronous while keeping inner loop synchronous. See item 4.
+[4] Remove queue and just bind to 'end' events to build implicit queue.
