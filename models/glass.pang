@@ -1,338 +1,338 @@
-{"lexeme":"160","type":"total"}
-{"lexeme":"glass 1 2 3 4","type":"polygon"}
-{"lexeme":"glass 5 1 4 6","type":"polygon"}
-{"lexeme":"glass 4 3 7 8","type":"polygon"}
-{"lexeme":"glass 6 4 8 9","type":"polygon"}
-{"lexeme":"glass 10 11 12 13","type":"polygon"}
-{"lexeme":"glass 14 10 13 15","type":"polygon"}
-{"lexeme":"glass 13 12 7 8","type":"polygon"}
-{"lexeme":"glass 15 13 8 9","type":"polygon"}
-{"lexeme":"glass 16 17 18 19","type":"polygon"}
-{"lexeme":"glass 20 16 19 21","type":"polygon"}
-{"lexeme":"glass 19 18 2","type":"polygon"}
-{"lexeme":"glass 21 19 1 5","type":"polygon"}
-{"lexeme":"glass 22 23 24 25","type":"polygon"}
-{"lexeme":"glass 26 22 25 27","type":"polygon"}
-{"lexeme":"glass 25 24 17 16","type":"polygon"}
-{"lexeme":"glass 27 25 16 20","type":"polygon"}
-{"lexeme":"glass 28 29 30 31","type":"polygon"}
-{"lexeme":"glass 32 28 31 33","type":"polygon"}
-{"lexeme":"glass 31 30 23 22","type":"polygon"}
-{"lexeme":"glass 33 31 22 26","type":"polygon"}
-{"lexeme":"glass 34 35 36 37","type":"polygon"}
-{"lexeme":"glass 38 34 37 39","type":"polygon"}
-{"lexeme":"glass 37 36 29 28","type":"polygon"}
-{"lexeme":"glass 39 37 28 32","type":"polygon"}
-{"lexeme":"glass 40 41 42 43","type":"polygon"}
-{"lexeme":"glass 44 40 43 45","type":"polygon"}
-{"lexeme":"glass 43 42 35 34","type":"polygon"}
-{"lexeme":"glass 45 43 34 38","type":"polygon"}
-{"lexeme":"glass 10 11 46 47","type":"polygon"}
-{"lexeme":"glass 14 10 47 48","type":"polygon"}
-{"lexeme":"glass 47 46 41 40","type":"polygon"}
-{"lexeme":"glass 48 47 40 44","type":"polygon"}
-{"lexeme":"glass 49 50 51 52","type":"polygon"}
-{"lexeme":"glass 2 49 52 3","type":"polygon"}
-{"lexeme":"glass 52 51 53 54","type":"polygon"}
-{"lexeme":"glass 3 52 54 7","type":"polygon"}
-{"lexeme":"glass 55 56 57 58","type":"polygon"}
-{"lexeme":"glass 11 55 58 12","type":"polygon"}
-{"lexeme":"glass 58 57 53 54","type":"polygon"}
-{"lexeme":"glass 12 58 54 7","type":"polygon"}
-{"lexeme":"glass 59 60 61 62","type":"polygon"}
-{"lexeme":"glass 17 59 62 18","type":"polygon"}
-{"lexeme":"glass 62 61 50 49","type":"polygon"}
-{"lexeme":"glass 18 62 49 2","type":"polygon"}
-{"lexeme":"glass 63 64 65 66","type":"polygon"}
-{"lexeme":"glass 23 63 66 24","type":"polygon"}
-{"lexeme":"glass 66 65 60 59","type":"polygon"}
-{"lexeme":"glass 24 66 59 17","type":"polygon"}
-{"lexeme":"glass 67 68 69 70","type":"polygon"}
-{"lexeme":"glass 29 67 70 30","type":"polygon"}
-{"lexeme":"glass 70 69 64 63","type":"polygon"}
-{"lexeme":"glass 30 70 63 23","type":"polygon"}
-{"lexeme":"glass 71 72 73 74","type":"polygon"}
-{"lexeme":"glass 35 71 74 36","type":"polygon"}
-{"lexeme":"glass 74 73 68 67","type":"polygon"}
-{"lexeme":"glass 36 74 67 29","type":"polygon"}
-{"lexeme":"glass 75 76 77 78","type":"polygon"}
-{"lexeme":"glass 41 75 78 42","type":"polygon"}
-{"lexeme":"glass 78 77 72 71","type":"polygon"}
-{"lexeme":"glass 42 78 71 35","type":"polygon"}
-{"lexeme":"glass 55 56 79 80","type":"polygon"}
-{"lexeme":"glass 11 55 80 46","type":"polygon"}
-{"lexeme":"glass 80 79 76 75","type":"polygon"}
-{"lexeme":"glass 46 80 75 41","type":"polygon"}
-{"lexeme":"glass 81 82 83 84","type":"polygon"}
-{"lexeme":"glass 50 81 84 51","type":"polygon"}
-{"lexeme":"glass 84 83 85 86","type":"polygon"}
-{"lexeme":"glass 51 84 86 53","type":"polygon"}
-{"lexeme":"glass 87 88 89 90","type":"polygon"}
-{"lexeme":"glass 56 87 90 57","type":"polygon"}
-{"lexeme":"glass 90 89 85 86","type":"polygon"}
-{"lexeme":"glass 57 90 86 53","type":"polygon"}
-{"lexeme":"glass 91 92 93 94","type":"polygon"}
-{"lexeme":"glass 60 91 94 61","type":"polygon"}
-{"lexeme":"glass 94 93 82 81","type":"polygon"}
-{"lexeme":"glass 61 94 81 50","type":"polygon"}
-{"lexeme":"glass 95 96 97 98","type":"polygon"}
-{"lexeme":"glass 64 95 98 65","type":"polygon"}
-{"lexeme":"glass 98 97 92 91","type":"polygon"}
-{"lexeme":"glass 65 98 91 60","type":"polygon"}
-{"lexeme":"glass 99 100 101 102","type":"polygon"}
-{"lexeme":"glass 68 99 102 69","type":"polygon"}
-{"lexeme":"glass 102 101 96 95","type":"polygon"}
-{"lexeme":"glass 69 102 95 64","type":"polygon"}
-{"lexeme":"glass 103 104 105 106","type":"polygon"}
-{"lexeme":"glass 72 103 106 73","type":"polygon"}
-{"lexeme":"glass 106 105 100 99","type":"polygon"}
-{"lexeme":"glass 73 106 99 68","type":"polygon"}
-{"lexeme":"glass 107 108 109 110","type":"polygon"}
-{"lexeme":"glass 76 107 110 77","type":"polygon"}
-{"lexeme":"glass 110 109 104 103","type":"polygon"}
-{"lexeme":"glass 77 110 103 72","type":"polygon"}
-{"lexeme":"glass 87 88 111 112","type":"polygon"}
-{"lexeme":"glass 56 87 112 79","type":"polygon"}
-{"lexeme":"glass 112 111 108 107","type":"polygon"}
-{"lexeme":"glass 79 112 107 76","type":"polygon"}
-{"lexeme":"glass 113 114 115 116","type":"polygon"}
-{"lexeme":"glass 82 113 116 83","type":"polygon"}
-{"lexeme":"glass 116 115 117 118","type":"polygon"}
-{"lexeme":"glass 83 116 118 85","type":"polygon"}
-{"lexeme":"glass 119 120 121 122","type":"polygon"}
-{"lexeme":"glass 88 119 122 89","type":"polygon"}
-{"lexeme":"glass 122 121 117 118","type":"polygon"}
-{"lexeme":"glass 89 122 118 85","type":"polygon"}
-{"lexeme":"glass 123 124 125 126","type":"polygon"}
-{"lexeme":"glass 92 123 126 93","type":"polygon"}
-{"lexeme":"glass 126 125 114 113","type":"polygon"}
-{"lexeme":"glass 93 126 113 82","type":"polygon"}
-{"lexeme":"glass 127 128 129 130","type":"polygon"}
-{"lexeme":"glass 96 127 130 97","type":"polygon"}
-{"lexeme":"glass 130 129 124 123","type":"polygon"}
-{"lexeme":"glass 97 130 123 92","type":"polygon"}
-{"lexeme":"glass 131 132 133 134","type":"polygon"}
-{"lexeme":"glass 100 131 134 101","type":"polygon"}
-{"lexeme":"glass 134 133 128 127","type":"polygon"}
-{"lexeme":"glass 101 134 127 96","type":"polygon"}
-{"lexeme":"glass 135 136 137 138","type":"polygon"}
-{"lexeme":"glass 104 135 138 105","type":"polygon"}
-{"lexeme":"glass 138 137 132 131","type":"polygon"}
-{"lexeme":"glass 105 138 131 100","type":"polygon"}
-{"lexeme":"glass 139 140 141 142","type":"polygon"}
-{"lexeme":"glass 108 139 142 109","type":"polygon"}
-{"lexeme":"glass 142 141 136 135","type":"polygon"}
-{"lexeme":"glass 109 142 135 104","type":"polygon"}
-{"lexeme":"glass 119 120 143 144","type":"polygon"}
-{"lexeme":"glass 88 119 144 111","type":"polygon"}
-{"lexeme":"glass 144 143 140 139","type":"polygon"}
-{"lexeme":"glass 111 144 139 108","type":"polygon"}
-{"lexeme":"glass 145 146 147 148","type":"polygon"}
-{"lexeme":"glass 114 145 148 115","type":"polygon"}
-{"lexeme":"glass 148 147 149 150","type":"polygon"}
-{"lexeme":"glass 115 148 150 117","type":"polygon"}
-{"lexeme":"glass 151 152 153 154","type":"polygon"}
-{"lexeme":"glass 120 151 154 121","type":"polygon"}
-{"lexeme":"glass 154 153 149 150","type":"polygon"}
-{"lexeme":"glass 121 154 150 117","type":"polygon"}
-{"lexeme":"glass 155 156 157 158","type":"polygon"}
-{"lexeme":"glass 124 155 158 125","type":"polygon"}
-{"lexeme":"glass 158 157 146 145","type":"polygon"}
-{"lexeme":"glass 125 158 145 114","type":"polygon"}
-{"lexeme":"glass 159 160 161 162","type":"polygon"}
-{"lexeme":"glass 128 159 162 129","type":"polygon"}
-{"lexeme":"glass 162 161 156 155","type":"polygon"}
-{"lexeme":"glass 129 162 155 124","type":"polygon"}
-{"lexeme":"glass 163 164 165 166","type":"polygon"}
-{"lexeme":"glass 132 163 166 133","type":"polygon"}
-{"lexeme":"glass 166 165 160 159","type":"polygon"}
-{"lexeme":"glass 133 166 159 128","type":"polygon"}
-{"lexeme":"glass 167 168 169 170","type":"polygon"}
-{"lexeme":"glass 136 167 170 137","type":"polygon"}
-{"lexeme":"glass 170 169 164 163","type":"polygon"}
-{"lexeme":"glass 137 170 163 132","type":"polygon"}
-{"lexeme":"glass 171 172 173 174","type":"polygon"}
-{"lexeme":"glass 140 171 174 141","type":"polygon"}
-{"lexeme":"glass 174 173 168 167","type":"polygon"}
-{"lexeme":"glass 141 174 167 136","type":"polygon"}
-{"lexeme":"glass 151 152 175 176","type":"polygon"}
-{"lexeme":"glass 120 151 176 143","type":"polygon"}
-{"lexeme":"glass 176 175 172 171","type":"polygon"}
-{"lexeme":"glass 143 176 171 140","type":"polygon"}
-{"lexeme":"176","type":"total"}
-{"lexeme":"1,32.897400,-1.000000,33.177399","type":"coordinate"}
-{"lexeme":"2,62.932499,-1.000000,62.932499","type":"coordinate"}
-{"lexeme":"3,81.528702,-1.000000,33.770302","type":"coordinate"}
-{"lexeme":"4,42.701199,-1.000000,17.803400","type":"coordinate"}
-{"lexeme":"5,2.862400,-1.000000,3.422400","type":"coordinate"}
-{"lexeme":"6,3.873700,-1.000000,1.836500","type":"coordinate"}
-{"lexeme":"7,89.000000,-1.000000,0.000000","type":"coordinate"}
-{"lexeme":"8,46.639999,-1.000000,0.000000","type":"coordinate"}
-{"lexeme":"9,4.280000,-1.000000,0.000000","type":"coordinate"}
-{"lexeme":"10,32.897400,-1.000000,-33.177399","type":"coordinate"}
-{"lexeme":"11,62.932499,-1.000000,-62.932499","type":"coordinate"}
-{"lexeme":"12,81.528702,-1.000000,-33.770302","type":"coordinate"}
-{"lexeme":"13,42.701199,-1.000000,-17.803400","type":"coordinate"}
-{"lexeme":"14,2.862400,-1.000000,-3.422400","type":"coordinate"}
-{"lexeme":"15,3.873700,-1.000000,-1.836500","type":"coordinate"}
-{"lexeme":"16,-0.280002,-1.000000,46.919998","type":"coordinate"}
-{"lexeme":"17,-0.000004,-1.000000,89.000000","type":"coordinate"}
-{"lexeme":"18,33.770302,-1.000000,81.528702","type":"coordinate"}
-{"lexeme":"19,17.523399,-1.000000,42.981201","type":"coordinate"}
-{"lexeme":"20,-0.560000,-1.000000,4.840000","type":"coordinate"}
-{"lexeme":"21,1.276500,-1.000000,4.433700","type":"coordinate"}
-{"lexeme":"22,-33.457500,-1.000000,33.177399","type":"coordinate"}
-{"lexeme":"23,-62.932499,-1.000000,62.932499","type":"coordinate"}
-{"lexeme":"24,-33.770302,-1.000000,81.528702","type":"coordinate"}
-{"lexeme":"25,-18.083401,-1.000000,42.981201","type":"coordinate"}
-{"lexeme":"26,-3.982400,-1.000000,3.422400","type":"coordinate"}
-{"lexeme":"27,-2.396500,-1.000000,4.433700","type":"coordinate"}
-{"lexeme":"28,-47.200001,-1.000000,-0.000004","type":"coordinate"}
-{"lexeme":"29,-89.000000,-1.000000,-0.000008","type":"coordinate"}
-{"lexeme":"30,-81.528702,-1.000000,33.770302","type":"coordinate"}
-{"lexeme":"31,-43.261200,-1.000000,17.803400","type":"coordinate"}
-{"lexeme":"32,-5.400000,-1.000000,0.000000","type":"coordinate"}
-{"lexeme":"33,-4.993700,-1.000000,1.836500","type":"coordinate"}
-{"lexeme":"34,-33.457500,-1.000000,-33.177399","type":"coordinate"}
-{"lexeme":"35,-62.932499,-1.000000,-62.932499","type":"coordinate"}
-{"lexeme":"36,-81.528702,-1.000000,-33.770302","type":"coordinate"}
-{"lexeme":"37,-43.261200,-1.000000,-17.803400","type":"coordinate"}
-{"lexeme":"38,-3.982400,-1.000000,-3.422400","type":"coordinate"}
-{"lexeme":"39,-4.993700,-1.000000,-1.836500","type":"coordinate"}
-{"lexeme":"40,-0.279999,-1.000000,-46.919998","type":"coordinate"}
-{"lexeme":"41,0.000001,-1.000000,-89.000000","type":"coordinate"}
-{"lexeme":"42,-33.770302,-1.000000,-81.528702","type":"coordinate"}
-{"lexeme":"43,-18.083401,-1.000000,-42.981201","type":"coordinate"}
-{"lexeme":"44,-0.560000,-1.000000,-4.840000","type":"coordinate"}
-{"lexeme":"45,-2.396500,-1.000000,-4.433700","type":"coordinate"}
-{"lexeme":"46,33.770302,-1.000000,-81.528702","type":"coordinate"}
-{"lexeme":"47,17.523399,-1.000000,-42.981201","type":"coordinate"}
-{"lexeme":"48,1.276500,-1.000000,-4.433700","type":"coordinate"}
-{"lexeme":"49,74.467201,112.523003,74.467201","type":"coordinate"}
-{"lexeme":"50,83.438599,226.000000,83.438599","type":"coordinate"}
-{"lexeme":"51,108.094002,226.000000,44.774101","type":"coordinate"}
-{"lexeme":"52,96.358597,112.523003,39.912998","type":"coordinate"}
-{"lexeme":"53,118.000000,226.000000,0.000000","type":"coordinate"}
-{"lexeme":"54,105.311996,112.523003,0.000000","type":"coordinate"}
-{"lexeme":"55,74.467201,112.523003,-74.467201","type":"coordinate"}
-{"lexeme":"56,83.438599,226.000000,-83.438599","type":"coordinate"}
-{"lexeme":"57,108.094002,226.000000,-44.774101","type":"coordinate"}
-{"lexeme":"58,96.358597,112.523003,-39.912998","type":"coordinate"}
-{"lexeme":"59,-0.000005,112.523003,105.311996","type":"coordinate"}
-{"lexeme":"60,-0.000005,226.000000,118.000000","type":"coordinate"}
-{"lexeme":"61,44.774101,226.000000,108.094002","type":"coordinate"}
-{"lexeme":"62,39.912998,112.523003,96.358597","type":"coordinate"}
-{"lexeme":"63,-74.467201,112.523003,74.467201","type":"coordinate"}
-{"lexeme":"64,-83.438599,226.000000,83.438599","type":"coordinate"}
-{"lexeme":"65,-44.774101,226.000000,108.094002","type":"coordinate"}
-{"lexeme":"66,-39.912998,112.523003,96.358597","type":"coordinate"}
-{"lexeme":"67,-105.311996,112.523003,-0.000009","type":"coordinate"}
-{"lexeme":"68,-118.000000,226.000000,-0.000010","type":"coordinate"}
-{"lexeme":"69,-108.094002,226.000000,44.774101","type":"coordinate"}
-{"lexeme":"70,-96.358597,112.523003,39.912998","type":"coordinate"}
-{"lexeme":"71,-74.467201,112.523003,-74.467201","type":"coordinate"}
-{"lexeme":"72,-83.438599,226.000000,-83.438599","type":"coordinate"}
-{"lexeme":"73,-108.094002,226.000000,-44.774101","type":"coordinate"}
-{"lexeme":"74,-96.358597,112.523003,-39.912998","type":"coordinate"}
-{"lexeme":"75,0.000001,112.523003,-105.311996","type":"coordinate"}
-{"lexeme":"76,0.000001,226.000000,-118.000000","type":"coordinate"}
-{"lexeme":"77,-44.774101,226.000000,-108.094002","type":"coordinate"}
-{"lexeme":"78,-39.912998,112.523003,-96.358597","type":"coordinate"}
-{"lexeme":"79,44.774101,226.000000,-108.094002","type":"coordinate"}
-{"lexeme":"80,39.912998,112.523003,-96.358597","type":"coordinate"}
-{"lexeme":"81,73.443199,229.843002,73.443199","type":"coordinate"}
-{"lexeme":"82,62.932499,227.000000,62.932499","type":"coordinate"}
-{"lexeme":"83,81.528702,227.000000,33.770302","type":"coordinate"}
-{"lexeme":"84,95.122597,229.843002,39.401100","type":"coordinate"}
-{"lexeme":"85,89.000000,227.000000,0.000000","type":"coordinate"}
-{"lexeme":"86,103.863998,229.843002,0.000000","type":"coordinate"}
-{"lexeme":"87,73.443199,229.843002,-73.443199","type":"coordinate"}
-{"lexeme":"88,62.932499,227.000000,-62.932499","type":"coordinate"}
-{"lexeme":"89,81.528702,227.000000,-33.770302","type":"coordinate"}
-{"lexeme":"90,95.122597,229.843002,-39.401100","type":"coordinate"}
-{"lexeme":"91,-0.000005,229.843002,103.863998","type":"coordinate"}
-{"lexeme":"92,-0.000004,227.000000,89.000000","type":"coordinate"}
-{"lexeme":"93,33.770302,227.000000,81.528702","type":"coordinate"}
-{"lexeme":"94,39.401100,229.843002,95.122597","type":"coordinate"}
-{"lexeme":"95,-73.443199,229.843002,73.443199","type":"coordinate"}
-{"lexeme":"96,-62.932499,227.000000,62.932499","type":"coordinate"}
-{"lexeme":"97,-33.770302,227.000000,81.528702","type":"coordinate"}
-{"lexeme":"98,-39.401100,229.843002,95.122597","type":"coordinate"}
-{"lexeme":"99,-103.863998,229.843002,-0.000009","type":"coordinate"}
-{"lexeme":"100,-89.000000,227.000000,-0.000008","type":"coordinate"}
-{"lexeme":"101,-81.528702,227.000000,33.770302","type":"coordinate"}
-{"lexeme":"102,-95.122597,229.843002,39.401100","type":"coordinate"}
-{"lexeme":"103,-73.443199,229.843002,-73.443199","type":"coordinate"}
-{"lexeme":"104,-62.932499,227.000000,-62.932499","type":"coordinate"}
-{"lexeme":"105,-81.528702,227.000000,-33.770302","type":"coordinate"}
-{"lexeme":"106,-95.122597,229.843002,-39.401100","type":"coordinate"}
-{"lexeme":"107,0.000001,229.843002,-103.863998","type":"coordinate"}
-{"lexeme":"108,0.000001,227.000000,-89.000000","type":"coordinate"}
-{"lexeme":"109,-33.770302,227.000000,-81.528702","type":"coordinate"}
-{"lexeme":"110,-39.401100,229.843002,-95.122597","type":"coordinate"}
-{"lexeme":"111,33.770302,227.000000,-81.528702","type":"coordinate"}
-{"lexeme":"112,39.401100,229.843002,-95.122597","type":"coordinate"}
-{"lexeme":"113,56.974201,122.375999,56.946602","type":"coordinate"}
-{"lexeme":"114,48.790401,18.000000,48.790401","type":"coordinate"}
-{"lexeme":"115,63.207699,18.000000,26.181499","type":"coordinate"}
-{"lexeme":"116,73.704597,122.373001,30.518499","type":"coordinate"}
-{"lexeme":"117,69.000000,18.000000,0.000000","type":"coordinate"}
-{"lexeme":"118,80.559898,122.369003,0.000000","type":"coordinate"}
-{"lexeme":"119,56.974201,122.375999,-56.946602","type":"coordinate"}
-{"lexeme":"120,48.790401,18.000000,-48.790401","type":"coordinate"}
-{"lexeme":"121,63.207699,18.000000,-26.181499","type":"coordinate"}
-{"lexeme":"122,73.704597,122.373001,-30.518499","type":"coordinate"}
-{"lexeme":"123,0.027648,122.390999,80.540497","type":"coordinate"}
-{"lexeme":"124,-0.000003,18.000000,69.000000","type":"coordinate"}
-{"lexeme":"125,26.181499,18.000000,63.207699","type":"coordinate"}
-{"lexeme":"126,30.546101,122.383003,73.681000","type":"coordinate"}
-{"lexeme":"127,-56.927200,122.406998,56.954800","type":"coordinate"}
-{"lexeme":"128,-48.790401,18.000000,48.790401","type":"coordinate"}
-{"lexeme":"129,-26.181499,18.000000,63.207699","type":"coordinate"}
-{"lexeme":"130,-30.494900,122.399002,73.685204","type":"coordinate"}
-{"lexeme":"131,-80.521004,122.413002,-0.000007","type":"coordinate"}
-{"lexeme":"132,-69.000000,18.000000,-0.000006","type":"coordinate"}
-{"lexeme":"133,-63.207699,18.000000,26.181499","type":"coordinate"}
-{"lexeme":"134,-73.661598,122.410004,30.522600","type":"coordinate"}
-{"lexeme":"135,-56.927200,122.406998,-56.954800","type":"coordinate"}
-{"lexeme":"136,-48.790401,18.000000,-48.790401","type":"coordinate"}
-{"lexeme":"137,-63.207699,18.000000,-26.181499","type":"coordinate"}
-{"lexeme":"138,-73.661598,122.410004,-30.522600","type":"coordinate"}
-{"lexeme":"139,0.027652,122.390999,-80.540497","type":"coordinate"}
-{"lexeme":"140,0.000001,18.000000,-69.000000","type":"coordinate"}
-{"lexeme":"141,-26.181499,18.000000,-63.207699","type":"coordinate"}
-{"lexeme":"142,-30.494900,122.399002,-73.685204","type":"coordinate"}
-{"lexeme":"143,26.181499,18.000000,-63.207699","type":"coordinate"}
-{"lexeme":"144,30.546101,122.383003,-73.681000","type":"coordinate"}
-{"lexeme":"145,27.613300,7.705030,27.867100","type":"coordinate"}
-{"lexeme":"146,2.551270,2.520000,3.111270","type":"coordinate"}
-{"lexeme":"147,3.470630,2.520000,1.669540","type":"coordinate"}
-{"lexeme":"148,35.677299,7.701870,14.883600","type":"coordinate"}
-{"lexeme":"149,3.840000,2.520000,0.000000","type":"coordinate"}
-{"lexeme":"150,39.153801,7.698700,0.000000","type":"coordinate"}
-{"lexeme":"151,27.613300,7.705030,-27.867100","type":"coordinate"}
-{"lexeme":"152,2.551270,2.520000,-3.111270","type":"coordinate"}
-{"lexeme":"153,3.470630,2.520000,-1.669540","type":"coordinate"}
-{"lexeme":"154,35.677299,7.701870,-14.883600","type":"coordinate"}
-{"lexeme":"155,-0.253751,7.720410,39.415798","type":"coordinate"}
-{"lexeme":"156,-0.560000,2.520000,4.400000","type":"coordinate"}
-{"lexeme":"157,1.109540,2.520000,4.030630","type":"coordinate"}
-{"lexeme":"158,14.629900,7.712720,35.935200","type":"coordinate"}
-{"lexeme":"159,-28.129000,7.735920,27.875299","type":"coordinate"}
-{"lexeme":"160,-3.671270,2.520000,3.111270","type":"coordinate"}
-{"lexeme":"161,-2.229540,2.520000,4.030630","type":"coordinate"}
-{"lexeme":"162,-15.141500,7.728160,35.939301","type":"coordinate"}
-{"lexeme":"163,-39.677799,7.742380,-0.000003","type":"coordinate"}
-{"lexeme":"164,-4.960000,2.520000,0.000000","type":"coordinate"}
-{"lexeme":"165,-4.590630,2.520000,1.669540","type":"coordinate"}
-{"lexeme":"166,-36.197102,7.739150,14.887800","type":"coordinate"}
-{"lexeme":"167,-28.129000,7.735920,-27.875299","type":"coordinate"}
-{"lexeme":"168,-3.671270,2.520000,-3.111270","type":"coordinate"}
-{"lexeme":"169,-4.590630,2.520000,-1.669540","type":"coordinate"}
-{"lexeme":"170,-36.197102,7.739150,-14.887800","type":"coordinate"}
-{"lexeme":"171,-0.253749,7.720410,-39.415798","type":"coordinate"}
-{"lexeme":"172,-0.560000,2.520000,-4.400000","type":"coordinate"}
-{"lexeme":"173,-2.229540,2.520000,-4.030630","type":"coordinate"}
-{"lexeme":"174,-15.141500,7.728160,-35.939301","type":"coordinate"}
-{"lexeme":"175,1.109540,2.520000,-4.030630","type":"coordinate"}
-{"lexeme":"176,14.629900,7.712720,-35.935200","type":"coordinate"}
+{"lexeme":"160","type":"total","parent":"glass.poly"}
+{"lexeme":"glass 1 2 3 4","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 5 1 4 6","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 4 3 7 8","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 6 4 8 9","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 10 11 12 13","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 14 10 13 15","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 13 12 7 8","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 15 13 8 9","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 16 17 18 19","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 20 16 19 21","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 19 18 2","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 21 19 1 5","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 22 23 24 25","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 26 22 25 27","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 25 24 17 16","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 27 25 16 20","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 28 29 30 31","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 32 28 31 33","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 31 30 23 22","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 33 31 22 26","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 34 35 36 37","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 38 34 37 39","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 37 36 29 28","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 39 37 28 32","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 40 41 42 43","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 44 40 43 45","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 43 42 35 34","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 45 43 34 38","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 10 11 46 47","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 14 10 47 48","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 47 46 41 40","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 48 47 40 44","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 49 50 51 52","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 2 49 52 3","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 52 51 53 54","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 3 52 54 7","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 55 56 57 58","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 11 55 58 12","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 58 57 53 54","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 12 58 54 7","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 59 60 61 62","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 17 59 62 18","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 62 61 50 49","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 18 62 49 2","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 63 64 65 66","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 23 63 66 24","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 66 65 60 59","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 24 66 59 17","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 67 68 69 70","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 29 67 70 30","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 70 69 64 63","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 30 70 63 23","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 71 72 73 74","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 35 71 74 36","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 74 73 68 67","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 36 74 67 29","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 75 76 77 78","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 41 75 78 42","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 78 77 72 71","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 42 78 71 35","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 55 56 79 80","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 11 55 80 46","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 80 79 76 75","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 46 80 75 41","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 81 82 83 84","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 50 81 84 51","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 84 83 85 86","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 51 84 86 53","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 87 88 89 90","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 56 87 90 57","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 90 89 85 86","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 57 90 86 53","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 91 92 93 94","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 60 91 94 61","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 94 93 82 81","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 61 94 81 50","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 95 96 97 98","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 64 95 98 65","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 98 97 92 91","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 65 98 91 60","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 99 100 101 102","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 68 99 102 69","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 102 101 96 95","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 69 102 95 64","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 103 104 105 106","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 72 103 106 73","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 106 105 100 99","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 73 106 99 68","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 107 108 109 110","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 76 107 110 77","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 110 109 104 103","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 77 110 103 72","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 87 88 111 112","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 56 87 112 79","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 112 111 108 107","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 79 112 107 76","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 113 114 115 116","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 82 113 116 83","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 116 115 117 118","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 83 116 118 85","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 119 120 121 122","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 88 119 122 89","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 122 121 117 118","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 89 122 118 85","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 123 124 125 126","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 92 123 126 93","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 126 125 114 113","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 93 126 113 82","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 127 128 129 130","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 96 127 130 97","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 130 129 124 123","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 97 130 123 92","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 131 132 133 134","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 100 131 134 101","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 134 133 128 127","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 101 134 127 96","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 135 136 137 138","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 104 135 138 105","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 138 137 132 131","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 105 138 131 100","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 139 140 141 142","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 108 139 142 109","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 142 141 136 135","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 109 142 135 104","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 119 120 143 144","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 88 119 144 111","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 144 143 140 139","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 111 144 139 108","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 145 146 147 148","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 114 145 148 115","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 148 147 149 150","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 115 148 150 117","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 151 152 153 154","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 120 151 154 121","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 154 153 149 150","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 121 154 150 117","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 155 156 157 158","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 124 155 158 125","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 158 157 146 145","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 125 158 145 114","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 159 160 161 162","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 128 159 162 129","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 162 161 156 155","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 129 162 155 124","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 163 164 165 166","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 132 163 166 133","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 166 165 160 159","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 133 166 159 128","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 167 168 169 170","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 136 167 170 137","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 170 169 164 163","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 137 170 163 132","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 171 172 173 174","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 140 171 174 141","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 174 173 168 167","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 141 174 167 136","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 151 152 175 176","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 120 151 176 143","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 176 175 172 171","type":"polygon","parent":"glass.poly"}
+{"lexeme":"glass 143 176 171 140","type":"polygon","parent":"glass.poly"}
+{"lexeme":"176","type":"total","parent":"glass.coor"}
+{"lexeme":"1,32.897400,-1.000000,33.177399","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"2,62.932499,-1.000000,62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"3,81.528702,-1.000000,33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"4,42.701199,-1.000000,17.803400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"5,2.862400,-1.000000,3.422400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"6,3.873700,-1.000000,1.836500","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"7,89.000000,-1.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"8,46.639999,-1.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"9,4.280000,-1.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"10,32.897400,-1.000000,-33.177399","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"11,62.932499,-1.000000,-62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"12,81.528702,-1.000000,-33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"13,42.701199,-1.000000,-17.803400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"14,2.862400,-1.000000,-3.422400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"15,3.873700,-1.000000,-1.836500","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"16,-0.280002,-1.000000,46.919998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"17,-0.000004,-1.000000,89.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"18,33.770302,-1.000000,81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"19,17.523399,-1.000000,42.981201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"20,-0.560000,-1.000000,4.840000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"21,1.276500,-1.000000,4.433700","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"22,-33.457500,-1.000000,33.177399","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"23,-62.932499,-1.000000,62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"24,-33.770302,-1.000000,81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"25,-18.083401,-1.000000,42.981201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"26,-3.982400,-1.000000,3.422400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"27,-2.396500,-1.000000,4.433700","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"28,-47.200001,-1.000000,-0.000004","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"29,-89.000000,-1.000000,-0.000008","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"30,-81.528702,-1.000000,33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"31,-43.261200,-1.000000,17.803400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"32,-5.400000,-1.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"33,-4.993700,-1.000000,1.836500","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"34,-33.457500,-1.000000,-33.177399","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"35,-62.932499,-1.000000,-62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"36,-81.528702,-1.000000,-33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"37,-43.261200,-1.000000,-17.803400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"38,-3.982400,-1.000000,-3.422400","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"39,-4.993700,-1.000000,-1.836500","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"40,-0.279999,-1.000000,-46.919998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"41,0.000001,-1.000000,-89.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"42,-33.770302,-1.000000,-81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"43,-18.083401,-1.000000,-42.981201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"44,-0.560000,-1.000000,-4.840000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"45,-2.396500,-1.000000,-4.433700","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"46,33.770302,-1.000000,-81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"47,17.523399,-1.000000,-42.981201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"48,1.276500,-1.000000,-4.433700","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"49,74.467201,112.523003,74.467201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"50,83.438599,226.000000,83.438599","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"51,108.094002,226.000000,44.774101","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"52,96.358597,112.523003,39.912998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"53,118.000000,226.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"54,105.311996,112.523003,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"55,74.467201,112.523003,-74.467201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"56,83.438599,226.000000,-83.438599","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"57,108.094002,226.000000,-44.774101","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"58,96.358597,112.523003,-39.912998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"59,-0.000005,112.523003,105.311996","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"60,-0.000005,226.000000,118.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"61,44.774101,226.000000,108.094002","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"62,39.912998,112.523003,96.358597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"63,-74.467201,112.523003,74.467201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"64,-83.438599,226.000000,83.438599","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"65,-44.774101,226.000000,108.094002","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"66,-39.912998,112.523003,96.358597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"67,-105.311996,112.523003,-0.000009","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"68,-118.000000,226.000000,-0.000010","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"69,-108.094002,226.000000,44.774101","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"70,-96.358597,112.523003,39.912998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"71,-74.467201,112.523003,-74.467201","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"72,-83.438599,226.000000,-83.438599","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"73,-108.094002,226.000000,-44.774101","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"74,-96.358597,112.523003,-39.912998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"75,0.000001,112.523003,-105.311996","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"76,0.000001,226.000000,-118.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"77,-44.774101,226.000000,-108.094002","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"78,-39.912998,112.523003,-96.358597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"79,44.774101,226.000000,-108.094002","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"80,39.912998,112.523003,-96.358597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"81,73.443199,229.843002,73.443199","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"82,62.932499,227.000000,62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"83,81.528702,227.000000,33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"84,95.122597,229.843002,39.401100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"85,89.000000,227.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"86,103.863998,229.843002,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"87,73.443199,229.843002,-73.443199","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"88,62.932499,227.000000,-62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"89,81.528702,227.000000,-33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"90,95.122597,229.843002,-39.401100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"91,-0.000005,229.843002,103.863998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"92,-0.000004,227.000000,89.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"93,33.770302,227.000000,81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"94,39.401100,229.843002,95.122597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"95,-73.443199,229.843002,73.443199","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"96,-62.932499,227.000000,62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"97,-33.770302,227.000000,81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"98,-39.401100,229.843002,95.122597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"99,-103.863998,229.843002,-0.000009","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"100,-89.000000,227.000000,-0.000008","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"101,-81.528702,227.000000,33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"102,-95.122597,229.843002,39.401100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"103,-73.443199,229.843002,-73.443199","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"104,-62.932499,227.000000,-62.932499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"105,-81.528702,227.000000,-33.770302","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"106,-95.122597,229.843002,-39.401100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"107,0.000001,229.843002,-103.863998","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"108,0.000001,227.000000,-89.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"109,-33.770302,227.000000,-81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"110,-39.401100,229.843002,-95.122597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"111,33.770302,227.000000,-81.528702","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"112,39.401100,229.843002,-95.122597","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"113,56.974201,122.375999,56.946602","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"114,48.790401,18.000000,48.790401","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"115,63.207699,18.000000,26.181499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"116,73.704597,122.373001,30.518499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"117,69.000000,18.000000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"118,80.559898,122.369003,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"119,56.974201,122.375999,-56.946602","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"120,48.790401,18.000000,-48.790401","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"121,63.207699,18.000000,-26.181499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"122,73.704597,122.373001,-30.518499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"123,0.027648,122.390999,80.540497","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"124,-0.000003,18.000000,69.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"125,26.181499,18.000000,63.207699","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"126,30.546101,122.383003,73.681000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"127,-56.927200,122.406998,56.954800","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"128,-48.790401,18.000000,48.790401","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"129,-26.181499,18.000000,63.207699","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"130,-30.494900,122.399002,73.685204","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"131,-80.521004,122.413002,-0.000007","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"132,-69.000000,18.000000,-0.000006","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"133,-63.207699,18.000000,26.181499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"134,-73.661598,122.410004,30.522600","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"135,-56.927200,122.406998,-56.954800","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"136,-48.790401,18.000000,-48.790401","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"137,-63.207699,18.000000,-26.181499","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"138,-73.661598,122.410004,-30.522600","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"139,0.027652,122.390999,-80.540497","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"140,0.000001,18.000000,-69.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"141,-26.181499,18.000000,-63.207699","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"142,-30.494900,122.399002,-73.685204","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"143,26.181499,18.000000,-63.207699","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"144,30.546101,122.383003,-73.681000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"145,27.613300,7.705030,27.867100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"146,2.551270,2.520000,3.111270","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"147,3.470630,2.520000,1.669540","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"148,35.677299,7.701870,14.883600","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"149,3.840000,2.520000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"150,39.153801,7.698700,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"151,27.613300,7.705030,-27.867100","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"152,2.551270,2.520000,-3.111270","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"153,3.470630,2.520000,-1.669540","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"154,35.677299,7.701870,-14.883600","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"155,-0.253751,7.720410,39.415798","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"156,-0.560000,2.520000,4.400000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"157,1.109540,2.520000,4.030630","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"158,14.629900,7.712720,35.935200","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"159,-28.129000,7.735920,27.875299","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"160,-3.671270,2.520000,3.111270","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"161,-2.229540,2.520000,4.030630","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"162,-15.141500,7.728160,35.939301","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"163,-39.677799,7.742380,-0.000003","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"164,-4.960000,2.520000,0.000000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"165,-4.590630,2.520000,1.669540","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"166,-36.197102,7.739150,14.887800","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"167,-28.129000,7.735920,-27.875299","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"168,-3.671270,2.520000,-3.111270","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"169,-4.590630,2.520000,-1.669540","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"170,-36.197102,7.739150,-14.887800","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"171,-0.253749,7.720410,-39.415798","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"172,-0.560000,2.520000,-4.400000","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"173,-2.229540,2.520000,-4.030630","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"174,-15.141500,7.728160,-35.939301","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"175,1.109540,2.520000,-4.030630","type":"coordinate","parent":"glass.coor"}
+{"lexeme":"176,14.629900,7.712720,-35.935200","type":"coordinate","parent":"glass.coor"}

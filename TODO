@@ -1,2 +1,3 @@
 [1] Add error checking!
 [2] Acutually transform the output to javascript or json!
+[3] Keep outer loop asynchronous while keeping inner loop synchronous

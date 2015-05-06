@@ -36,12 +36,14 @@ function tokenize (string) {
   var token = rules.find(function(rule) {
     return rule.regex.test(string);
   });
-  return JSON.stringify({lexeme: string, type: token.type}).concat('\n');
+  return {lexeme: string, type: token.type};
 }
 
 // The transform tokenizer stream
-var Tokenizer = through2.ctor({objectMode: true}, function (line, enc, callback) {
-  this.push(tokenize(line));
+var Tokenizer = through2.ctor(function (line, enc, callback) {
+  var token = tokenize(line);
+  token.parent = path.basename(this.options.name);
+  this.push(JSON.stringify(token).concat('\n'));
   callback();
 }, function (callback) {
   // this.push("Have anything to be done between reads?\n");
@@ -61,8 +63,8 @@ function execute (job) {
   logger.info("Starting job *#", job.id, job.name, "*");
 
   // Init some transforms
-  var linestream = new LineStream();
-  var tokenizer = new Tokenizer();
+  var linestream = new LineStream({objectMode: true});
+  var tokenizer = new Tokenizer({objectMode: true, id: job.id, name: job.name});
 
   // All has been read from this transform stream.. I think..
   // https://nodejs.org/api/stream.html#stream_event_end
@@ -74,12 +76,13 @@ function execute (job) {
   job.instream
   .pipe(linestream)
   .pipe(tokenizer)
+  //.pipe(make_javascript_from_tokens)
   .pipe(job.outstream, {end: false}); // https://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
 }
 
 // Here we go
 // For each model
-// Open all streams for writing the pangfile.
+// Open all streams for writing a specific pangfile.
 models.forEach(function (model, mid) {
 
   // Setup output file
