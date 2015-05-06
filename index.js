@@ -48,8 +48,9 @@ var Tokenizer = through2.ctor({objectMode: true}, function (line, enc, callback)
   callback();
 });
 
-// Open streams for writing the pangfile. The goal is synchronicity between writes here.
-// http://stackoverflow.com/questions/21767927/node-js-writing-two-readable-streams-into-the-same-writable-stream
+// The goal is synchronicity between writes here. We will queue jobs in the correct order and
+/// then process them synchronously.
+//// http://stackoverflow.com/questions/21767927/node-js-writing-two-readable-streams-into-the-same-writable-stream
 var queue = [];
 
 // Just to keep track of jobs
@@ -78,7 +79,7 @@ function execute (job) {
 
 // Here we go
 // For each model
-// This will queue jobs in the correct synchronous order
+// Open all streams for writing the pangfile.
 models.forEach(function (model, mid) {
 
   // Setup output file
@@ -102,13 +103,16 @@ models.forEach(function (model, mid) {
     };
 
     // Queue a job with an input stream
-    var job = {id: ++qid,
-               name: infile,
-               instream: fs.createReadStream(infile, readOptions),
-               outstream: pangfile};
+    var job = {
+      id: ++qid,
+      name: infile,
+      instream: fs.createReadStream(infile, readOptions),
+      outstream: pangfile
+    };
     queue.push(job);
 
     // Bind to the shift event so that we can process the next job
+    /// This is the heart of the synchronous behavior
     job.instream.on('shift', function () {
       logger.info("Finished job *#", job.id, job.name, "*");
       if (queue.length > 0) execute(queue.shift());
@@ -116,10 +120,7 @@ models.forEach(function (model, mid) {
 
   });
 
-  // Close pangfile somehow once all writes are done
-  pangfile.on("end", function () {
-    logger.info('New pangfile written to %s.', outfile);_
-  });
+  // Close outstream somehow once all writes are done
 
 });
 
