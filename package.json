@@ -1,0 +1,16 @@
+{
+  "name": "pangify",
+  "version": "0.0.1",
+  "description": "Pangify your polygon and coordinate files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Peterson <danrpts@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "node-tokenizer": "^0.0.0"
+  },
+  "devDependencies": {}
+}
