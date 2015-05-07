@@ -17,6 +17,7 @@ var logger = new Logdown({prefix: '[pangify]'});
 var argv = mini(process.argv.slice(2)),
     models = argv._,
     flags = {
+      d: argv.d,
       i: (argv.i) ? argv.i.split(',') : "poly coor".split(' '), // input file formats. See TODO.
       o: argv.o || 'js', // output file formats. See TODO.
       v: verbose = argv.v || false,
@@ -58,8 +59,9 @@ function execute (job) {
 
 models.forEach(function (model, mid) {
 
-  // Open output file
-  var outfile = path.normalize(model + '.' + flags.o.trim()),
+  // Open output file. This was a last minute addition so it may have bugs.
+  var outfile = (flags.d) ? path.join(path.normalize(flags.d), path.basename(model)) : model,
+      outfile = path.normalize(outfile + '.' + flags.o.trim()),
       outstream = fs.createWriteStream(outfile, {
         flags: 'w',
         encoding: "ascii",
@@ -77,11 +79,11 @@ models.forEach(function (model, mid) {
       if (exists) {
 
         var name = path.basename(infile).replace(/\./, '_'),
-        instream = fs.createReadStream(infile, {
-          flags: 'r',
-          encoding: "ascii",
-          autoClose: true
-        });
+            instream = fs.createReadStream(infile, {
+              flags: 'r',
+              encoding: "ascii",
+              autoClose: true
+            });
 
         // Inform us when the pipeline is pretty much done
         instream.on('done', function () {
