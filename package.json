@@ -1,16 +1,21 @@
 {
   "name": "pangify",
   "version": "0.0.1",
-  "description": "Pangify your polygon and coordinate files",
+  "description": "Convert your polygon and coordinate files automatically.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dan Peterson <danrpts@gmail.com>",
+  "preferGlobal": true,
   "license": "MIT",
   "dependencies": {
+    "byline": "^4.2.1",
+    "logdown": "^1.1.2",
     "minimist": "^1.1.1",
-    "node-tokenizer": "^0.0.0"
+    "through2": "^0.6.5"
   },
-  "devDependencies": {}
+  "bin": {
+    "pangify": "index.js"
+  }
 }
