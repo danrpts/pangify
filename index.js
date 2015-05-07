@@ -27,10 +27,11 @@ var argv = mini(process.argv.slice(2)),
 function execute (job) {
 
   // Setup some config
-  var name = job.name,
+  var path = job.path,
+      name = job.name,
       input = job.input,
       output = job.output,
-      pre = 'var ' + name.substr(name.indexOf('.')+1) + ' = ',
+      pre = 'var ' + name + ' = ',
       post = ';\n';
 
   // Setup transform streams
@@ -44,7 +45,7 @@ function execute (job) {
     input.emit('done'); // start next
   });
 
-  logger.info("Processing*",name,"*...");
+  logger.info("Processing*",path,"*...");
 
   // https://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
   input
@@ -63,7 +64,7 @@ models.forEach(function (model, mid) {
         flags: 'w',
         encoding: "ascii",
         autoClose: true
-      })
+      });
 
   // For each input file type, i.e. .poly, .coor, etc..
   flags.i.forEach(function (iext, eid) {
@@ -75,7 +76,8 @@ models.forEach(function (model, mid) {
 
       if (exists) {
 
-        var instream = fs.createReadStream(infile, {
+        var name = path.basename(infile).replace(/\./, '_'),
+        instream = fs.createReadStream(infile, {
           flags: 'r',
           encoding: "ascii",
           autoClose: true
@@ -83,19 +85,20 @@ models.forEach(function (model, mid) {
 
         // Inform us when the pipeline is pretty much done
         instream.on('done', function () {
-          logger.info("Written*",infile,"*to*",outfile,"*");
+          logger.info("Written*",name,"*to*",outfile,"*");
         });
 
         // Process asynchronously
         execute({
-          name: infile,
+          path: infile,
+          name: name,
           input: instream,
           output: outstream
 
         });
-      } else {
-        logger.warn("*",infile,"*does not exist.");
-      }
+
+      } else logger.warn("*",infile,"*does not exist.");
+
     });
   });
 });
