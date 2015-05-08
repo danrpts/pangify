@@ -52,7 +52,7 @@ function tokenize (string) {
 module.exports = through2.ctor(function (line, enc, callback) {
   var token = tokenize(line);
   token.parent = path.basename(this.options.name);
-  if (this.options.v) logger.log(JSON.stringify(token)); // spew out tokens
+  if (this.options.flags.v) this.options.logger.log(JSON.stringify(token)); // spew out tokens
   this.push(token);
   callback();
 }, function (callback) {
