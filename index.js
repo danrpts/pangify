@@ -23,7 +23,6 @@ var argv = mini(process.argv.slice(2)),
       v: verbose = argv.v || false,
     };
 
-
 // The actual stream pipeline
 function execute (job) {
 
@@ -73,11 +72,8 @@ models.forEach(function (model, mid) {
 
     // Open input file
     var infile = path.normalize(model + '.' + iext.trim());
-
     fs.exists(infile, function (exists) {
-
       if (exists) {
-
         var name = path.basename(infile).replace(/\./, '_'),
             instream = fs.createReadStream(infile, {
               flags: 'r',
@@ -96,11 +92,8 @@ models.forEach(function (model, mid) {
           name: name,
           input: instream,
           output: outstream
-
         });
-
       } else logger.warn("*",infile,"*does not exist.");
-
     });
   });
 });

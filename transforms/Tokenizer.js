@@ -22,7 +22,7 @@ if (!Array.prototype.find) {
       }
     }
     return undefined;
-  };
+  }
 }
 
 // Rules with setter
