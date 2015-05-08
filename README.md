@@ -8,15 +8,15 @@ npm install -g pangify
 ## Usage
 pangify {OPTIONS} [MODEL ...]
 
-`MODEL` is the path and name of a file, omit the extensions.
+`MODEL` is the path and name of a file. Omit the extension and see option `-i`.
 
 `OPTIONS` are:
 
-	`-i`      Comma seperated input extensions. Default is -i poly,coor
+	-i      Comma seperated input extensions. Default is -i poly,coor
 
-	`-d`      Set ouput directory. Default is the path to file.
+	-d      Set ouput directory. Default is the path to file.
 
-	`-v`      Show tokenized ouput. For debugging.
+	-v      Show tokenized ouput. For debugging.
 
 
 ## Model Data
