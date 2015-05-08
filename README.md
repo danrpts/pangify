@@ -3,10 +3,10 @@ Use pangify to convert your poly,coor files into a
 friendly javascript format.
 
 ## Install
-npm install -g pangify
+`npm install -g pangify`
 
 ## Usage
-pangify {OPTIONS} [MODEL ...]
+`pangify {OPTIONS} [MODEL ...]`
 
 `MODEL` is the path and name of a file. Omit the extension and see option `-i`.
 
