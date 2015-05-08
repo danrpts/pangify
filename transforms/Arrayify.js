@@ -14,7 +14,9 @@ module.exports = through2.ctor(function (token, enc, callback) {
     case "polygon":
       var lexemes = token.lexeme.split(/[, \t]+/);
       lexemes.forEach(function(item, index) {
-        if (/\d+/.test(item) && /\W+/.test(item)) lexemes[index] = parseInt(item);
+
+        // bug here that passing names with a digit in them!
+        if (/\d+/.test(item)) lexemes[index] = parseInt(item);
       });
       this.store.push(lexemes);
       break;
