@@ -63,7 +63,7 @@ models.forEach(function (model, mid) {
       outfile = path.normalize(outfile + '.' + flags.o.trim()),
       outstream = fs.createWriteStream(outfile, {
         flags: 'w',
-        encoding: "ascii",
+        encoding: "utf8",
         autoClose: true
       });
 
