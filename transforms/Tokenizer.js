@@ -34,9 +34,9 @@ function addRule(expression, name) {
 // Rules to test agaist; first hit wins; very adhoc. See TODO.
 addRule(/^\d+$/,                                  "total");
 addRule(/^\d+(?:[, \t]+[+-]?\d+(?:.?\d+)?){3}$/,  "coordinate");
-addRule(/^\w+(?:[, \t]+\d+)$/,                    "point");
-addRule(/^\w+(?:[, \t]+\d+){2}$/,                 "line");
-addRule(/^\w+(?:[, \t]+\d+){3,}$/,                "polygon");
+addRule(/^[\w.]+(?:[, \t]+\d+)$/,                 "point");
+addRule(/^[\w.]+(?:[, \t]+\d+){2}$/,              "line");
+addRule(/^[\w.]+(?:[, \t]+\d+){3,}$/,             "polygon");
 addRule(/^.*$/,                                   "invalid");
 
 // The actual regex tester
