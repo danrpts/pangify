@@ -1,6 +1,6 @@
 var through2 = require("through2");
 
-// Pool the stream into an array
+// Pool the stream into an array. This could be smarter.
 module.exports = through2.ctor(function (token, enc, callback) {
 
   if (!Array.isArray(this.store)) this.store = [];
@@ -14,8 +14,7 @@ module.exports = through2.ctor(function (token, enc, callback) {
     case "polygon":
       var lexemes = token.lexeme.split(/[, \t]+/);
       lexemes.forEach(function(item, index) {
-        // bug here
-        if (/\d+/.test(item)) lexemes[index] = parseInt(item);
+        if (/\d+/.test(item) && /\W+/.test(item)) lexemes[index] = parseInt(item);
       });
       this.store.push(lexemes);
       break;
