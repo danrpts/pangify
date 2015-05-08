@@ -1,5 +1,5 @@
 # Pangify
-Use pangify to convert your poly,coor files into a
+Use pangify to convert your poly and coor files into a
 friendly javascript format.
 
 ## Install
