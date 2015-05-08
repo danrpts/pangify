@@ -1,6 +1,6 @@
 {
   "name": "pangify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert your polygon and coordinate files automatically.",
   "main": "index.js",
   "scripts": {
